@@ -2,7 +2,7 @@ body
 {
     overflow: visible;
     font-family: 'Source Code Pro', monospace;
-    background-color: black;
+    background-color: #151515;
     color: white;
 }
 
@@ -17,13 +17,13 @@ h2
     margin-bottom:7vw;
 }
 
-
+    
 .bar
 {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 2vw;
+    margin-top: 2em;
     background-color: black;
     z-index: 10;
 }
@@ -31,10 +31,10 @@ h2
 
 .mainBar
 {
-    padding: 7px 0;
+    padding: 30px 0;
     position: sticky;
     position: -webkit-sticky;
-    bottom: 0;
+    bottom: 0px;
 }
 
 .mainBar a

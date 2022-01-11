@@ -1,59 +1,74 @@
 <html>
     <head>
         <link rel = "stylesheet" href = "styleSheets/basic.css">
+        <link rel = "stylesheet" href = "styleSheets/header.css">
         <link rel = "stylesheet" href = "styleSheets/gallery.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <h1>Gallery</h1>
-        <h2>hover over an item to watch it</h2>
+        <div class = "bar">
+            <a href = "https://github.com/celyk">Github</a>
+            <a href = "https://twitter.com/KyleFuckinC">Twitter</a>
+            <a href = "https://www.youtube.com/c/kylechumanimations">Youtube</a>
+            <a href = "mailto:serioushumanbusiness@gmail.com">Email</a>
+        </div>
+
+        <div id = "headerContentContainer">                
+            <h1 style = "margin: 2vw 0em 1vw 0em; text-align: center;">SHADERS</h1>
+            <div id = "headerText">
+                Moments before covid, I volunteered to photograph an educational event held at a local highschool. I took the opportunity to introduce some students to shader coding, and hacked up this demo on site:
+            </div>
+
+            <center>
+                <video width =60% controls>
+            <source src="content/questDEMO.mp4" type="video/mp4">
+            </center>
+        </div>
+
+        <h1>More shaders</h1>
         <div id = "galleryContainer">
             <div class = "galleryItem">
-                <img class = "galleryItemCover"src = "images/placeholder.png"> <!-- still image of gif goes here-->
-                <img class = "galleryItemGif" src = "images/placeholder.gif"> <!-- gif goes here-->
+                <img class = "galleryItemCover"src = "content/placeholder.png"> <!-- still image of gif goes here-->
+                <img class = "galleryItemGif" src = "content/lines0.gif"> <!-- gif goes here-->
             </div>
 
             <div class = "galleryItem">
-                <img class = "galleryItemCover"src = "images/placeholder.png">
-                <img class = "galleryItemGif" src = "images/placeholder.gif">
+                <img class = "galleryItemCover"src = "content/placeholder.png">
+                <img class = "galleryItemGif" src = "content/placeholder.gif">
             </div>
 
             <div class = "galleryItem">
-                <img class = "galleryItemCover"src = "images/placeholder.png">
-                <img class = "galleryItemGif" src = "images/placeholder.gif">
+                <img class = "galleryItemCover"src = "content/placeholder.png">
+                <img class = "galleryItemGif" src = "content/placeholder.gif">
             </div>
            
             <div class = "galleryItem">
-                <img class = "galleryItemCover"src = "images/placeholder.png">
-                <img class = "galleryItemGif" src = "images/placeholder.gif">
+                <img class = "galleryItemCover"src = "content/placeholder.png">
+                <img class = "galleryItemGif" src = "content/placeholder.gif">
             </div>
 
             <div class = "galleryItem">
-                <img class = "galleryItemCover"src = "images/placeholder.png">
-                <img class = "galleryItemGif" src = "images/placeholder.gif">
+                <img class = "galleryItemCover"src = "content/placeholder.png">
+                <img class = "galleryItemGif" src = "content/placeholder.gif">
             </div>
             
             <div class = "galleryItem">
-                <img class = "galleryItemCover"src = "images/placeholder.png">
-                <img class = "galleryItemGif" src = "images/placeholder.gif">
+                <img class = "galleryItemCover"src = "content/placeholder.png">
+                <img class = "galleryItemGif" src = "content/placeholder.gif">
             </div>
 
             <div class = "galleryItem">
-                <img class = "galleryItemCover"src = "images/placeholder.png">
-                <img class = "galleryItemGif" src = "images/placeholder.gif">
+                <img class = "galleryItemCover"src = "content/placeholder.png">
+                <img class = "galleryItemGif" src = "content/placeholder.gif">
             </div>
 
         </div>
         <div class = "bar mainBar">
             <a href = "./">Home</a>
             <a href = "shaders.html">Shaders</a>
-        </div>
-        <div class = "bar">
-            <a href = "mailto:email@email.com">Email</a>
-            <a href = "https://twitter.com/KyleFuckinC">Twitter</a>
-            <a href = "tel:01111111111">Phone</a>
         </div>
     </body>
 </html>

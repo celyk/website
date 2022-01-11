@@ -1,6 +1,6 @@
 #headerContentContainer
 {
-    margin: 0vw 20vw 10vw 20vw;
+    margin: 0vw 8vw 10vw 8vw;
 }
 
 #headerImageContainer
@@ -17,6 +17,6 @@
 
 #headerText
 {
-    padding: 0vw 2vw;
+    padding: 2em 0vw;
     flex-shrink: 2;
 }
