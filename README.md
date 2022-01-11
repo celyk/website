@@ -1,4 +1,4 @@
 # KyleSite
-Hosting a site for a friend with no github account
+A website template made for a friend
 
 can be found [here](https://wil-ro.github.io/KyleSite/)
