@@ -1,0 +1,24 @@
+#headerContentContainer
+{
+    display: flex;
+    margin: 5vw 20vw;
+}
+
+#headerImageContainer
+{
+    width: 25vw;
+    padding: 2vw;
+}
+
+#headerImage
+{
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+#headerText
+{
+    padding: 5vw 2vw;
+    flex-shrink: 2;
+}

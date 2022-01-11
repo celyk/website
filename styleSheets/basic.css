@@ -1,0 +1,89 @@
+body
+{
+    overflow: visible;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1
+{
+text-align: center;
+}
+h2
+{
+    font-size: smaller;
+    text-align: center;
+    margin-bottom:7vw;
+}
+
+
+.bar
+{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    gap: 10px;
+    margin-top: 2vw;
+    background-color: white;
+    z-index: 10;
+}
+
+
+.mainBar
+{
+    padding: 7px 0;
+}
+
+.mainBar a
+{
+    background-color: white;
+    padding: 0 3 1 3;
+    border-bottom: solid 1px black;
+    font-weight: bolder;
+
+    transition: padding 0.2s ease-in, border-bottom 0.2s ease-in;
+}
+
+.mainBar a:hover
+{
+    padding: 0 7 3 7;
+    border-bottom: solid 2px black;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+::-moz-selection {
+    background-color: black;
+    color: white;
+}
+
+::-o-selection {
+    background-color: black;
+    color: white;
+}
+
+::-ms-selection {
+    background-color: black;
+    color: white;
+}
+
+::-webkit-selection {
+    background-color: black;
+    color: white;
+}

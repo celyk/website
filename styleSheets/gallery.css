@@ -1,0 +1,31 @@
+#galleryContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+
+.galleryItem
+{
+    width: 18vw;
+    height: 18vw;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.galleryItem img
+{
+    width: 100%;
+    height: auto;
+
+    transition: transform 1s;
+}
+
+.galleryItem img:hover
+{
+    transform: scale(1.2, 1.2);
+}
