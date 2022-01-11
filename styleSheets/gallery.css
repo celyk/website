@@ -26,7 +26,23 @@
     transition: transform 1s;
 }
 
-.galleryItem img:hover
+.galleryItemCover
 {
-    transform: scale(1.2, 1.2);
+    display: block;
+}
+
+.galleryItemGif
+{
+    display: none;
+}
+
+
+.galleryItem:hover .galleryItemGif
+{
+    display: block;
+}
+
+.galleryItem:hover .galleryItemCover
+{
+    display: none;
 }
