@@ -1,4 +1,1 @@
-# KyleSite
-A website template made for a friend
-
-can be found [here](https://wil-ro.github.io/KyleSite/)
+can be found [here](https://celyk.github.io/website/)
