@@ -4,16 +4,16 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: stretch;
-    width: 90vw;
+    width: 100%;
     margin: 0 auto;
-    gap: 2vw;
+    gap: 1em;
 }
 
 
 .galleryItem
 {
-    width: 18vw;
-    height: 18vw;
+    width: 18em;
+    height: 18em;
     object-fit: cover;
     overflow: hidden;
 }
